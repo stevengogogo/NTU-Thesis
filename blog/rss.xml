@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>國立臺灣大學碩博士論文模板 Blog</title>
+        <link>https://hsins.github.io/blog</link>
+        <description>國立臺灣大學碩博士論文模板 Blog</description>
+        <lastBuildDate>Mon, 27 May 2019 12:00:01 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Release]]></title>
+            <link>https://hsins.github.io/NTU-Thesis/blog/2019/05/27/hello-world</link>
+            <guid>Release</guid>
+            <pubDate>Mon, 27 May 2019 12:00:01 GMT</pubDate>
+            <description><![CDATA[Don't worry about why]]></description>
+        </item>
+    </channel>
+</rss>

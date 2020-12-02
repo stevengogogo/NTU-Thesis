@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[44],{114:function(o){o.exports=JSON.parse('{"to":"https://v2.docusaurus.io/","forComponent":false}')}}]);

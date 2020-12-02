@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[32],{100:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Release","permalink":"/NTU-Thesis/blog/2019/05/27/hello-world"}]}')}}]);

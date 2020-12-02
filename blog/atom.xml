@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hsins.github.io/blog</id>
+    <title>國立臺灣大學碩博士論文模板 Blog</title>
+    <updated>2019-05-27T12:00:01.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hsins.github.io/blog"/>
+    <subtitle>國立臺灣大學碩博士論文模板 Blog</subtitle>
+    <icon>https://hsins.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Release]]></title>
+        <id>Release</id>
+        <link href="https://hsins.github.io/NTU-Thesis/blog/2019/05/27/hello-world"/>
+        <updated>2019-05-27T12:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Don't worry about why]]></summary>
+    </entry>
+</feed>
