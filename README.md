@@ -64,3 +64,26 @@
 ## License
 
 Licensed under the MIT License, Copyright © 2017-present Hsins.
+
+
+### Compile with *Latex Workshop* in VScode
+
+將 latexmk 設為 `xelatex` (中文介面需要這種 compiler)
+
+`setting.json`
+
+```text
+    "latex-workshop.latex.tools": [
+
+        {
+            "name": "latexmk",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-pdf",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+```
