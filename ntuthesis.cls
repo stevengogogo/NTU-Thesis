@@ -785,12 +785,13 @@
       \vfill
       \fontsize{16}{24}\selectfont
       \begin{tabularx}{\textwidth}{Xl}
+        
         {\hfill}口試委員：{\hfill}& \rule{11.5cm}{1pt}      \\
           & \multicolumn{1}{c}{（指導教授）}                \\
           & \rule{5cm}{1pt}\hspace{1.5cm}\rule{5cm}{1pt}  \\
           & \rule{5cm}{1pt}\hspace{1.5cm}\rule{5cm}{1pt}  \\
           & \rule{5cm}{1pt}\hspace{1.5cm}\rule{5cm}{1pt}  \\
-          & \rule{5cm}{1pt}\hspace{1.5cm}\rule{5cm}{1pt}  \\
+        
         所{\hfill}長：{\hfill}& \rule{9cm}{1pt}
       \end{tabularx}
     \end{center}
