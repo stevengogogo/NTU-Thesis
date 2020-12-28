@@ -14,7 +14,7 @@
 
 % 告知編譯器當前的 LaTeX 版本
 % Must indicate what's the release of LaTeX we are using.
-\NeedsTeXFormat{LaTeX2e}
+%\NeedsTeXFormat{LaTeX2e}
 
 % 定義類別名稱與敘述
 % Define the name and description of class.
