@@ -46,3 +46,72 @@
 % --------------------------------------------------
 % 套件設定（Packages Settings）
 % --------------------------------------------------
+
+\usepackage[sort&compress]{natbib}      % 參考文獻
+\usepackage{amsmath, amsthm, amssymb}   % 數學環境
+\usepackage{ulem, CJKulem}              % 下劃線、雙下劃線與波浪紋效果
+\usepackage{booktabs}                   % 改善表格設置
+\usepackage{multirow}                   % 合併儲存格
+\usepackage{diagbox}                    % 插入表格反斜線
+\usepackage{array}                      % 調整表格高度
+\usepackage{longtable}                  % 支援跨頁長表格
+\usepackage{paralist}                   % 列表環境
+\usepackage{subfiles}
+
+\usepackage{lipsum}                     % 英文亂字
+
+
+% --------------------------------------------------
+% 套件設定（Packages Settings）
+% --------------------------------------------------
+
+\usepackage{makerobust} %\MakeRobustCommand
+
+
+
+
+
+%include tikz with relative path
+\usepackage{import}
+\usepackage{ltablex}
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{bookmark}
+
+\usepackage{lineno}
+\usepackage{booktabs}
+\usepackage{mfirstuc}
+
+\usepackage[version=1]{mhchem}
+
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{mwe}
+
+
+%Systemic name of gene/protein/deletion
+\newcommand{\gene}[1]{\MakeUppercase{\emph{#1}}}
+
+%Name a protein / heterodimer: Usage \pr{Bmh}, \pr[Bmh]{Mks}
+\makeatletter
+\def\pr{\@ifnextchar[{\@with}{\@without}}
+\def\@without#1{\capitalisewords{\MakeLowercase{#1}}p}
+\def\@with[#1]#2{\capitalisewords{\MakeLowercase{#1}}/\pr{#2}}
+\makeatletter
+\MakeRobustCommand\pr 
+
+\newcommand{\del}[1]{\emph{$\Delta$\MakeLowercase{#1}}}
+
+
+% Plotting env
+\usepackage[font=footnotesize]{caption}
+\captionsetup{position=top,
+              labelfont=bf,
+              labelsep=period}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,automata,backgrounds,petri,calc}
+\usetikzlibrary{decorations.pathmorphing}
